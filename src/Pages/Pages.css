@@ -1,0 +1,499 @@
+.div-back{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url(background.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+.text{
+    position: fixed;
+    color: aliceblue;
+    top: 10%;
+}
+
+.block-1 {position:fixed;left:20%;top:10%;width:29%;height:80%;overflow:auto;background: rgba(43, 41, 41, 0.4);}
+
+.block-2 {position:fixed;right:0;top:0;width:50%;height:100%;overflow:auto;}
+
+.block-down {position:fixed;top:65%; width: 30%; height:25%; background: rgba(43, 41, 41, 0.4);}
+
+.block-down h4 {margin: 30px 100px; color: #fff; padding: 0; text-align: center;}
+
+.input-text {
+    margin: 0 0 3% 26%;
+    text-align: center;
+    background: none;
+    outline: none;
+    border: 1px solid #0fc3f5;
+    box-sizing: border-box; 
+    font-size: 18px; 
+    color: #fff;
+    width: 285px;
+}
+
+.input-img {
+    margin: 0% 0% 3% 26%;
+    text-align: center;
+    background: none;
+    outline: none;
+    border: 1px solid #0fc3f5;
+    box-sizing: border-box; 
+    font-size: 15px; 
+    color: #fff;
+}
+
+.input-button {
+    text-align: center;
+    margin: 0% 0% 0% 42%;
+}
+
+.error { text-align: center; margin:0 0 15px 0%; color: crimson;}
+
+.form-product-create {position: fixed; top: 60%; height: 10%;}
+
+.block-up {position:fixed;height:53%; width: 30%; background: rgba(43, 41, 41, 0.4);overflow-y: scroll;overflow: auto}
+
+.block-up-in {
+    position:fixed;
+    top: 12%;
+    left: 51%;
+    height:50%; 
+    width: 28%;
+    overflow-y: scroll;
+    overflow: auto;
+}
+
+.block-up-in-cart{
+    position: relative;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.7);
+    display: flex;
+    border-radius: .8rem;
+    box-shadow: 0 1.4rem 1rem rgba(0, 0, 0, 0.288);
+    padding: 0.5rem 1rem .5rem;
+    margin-bottom: 1rem;
+}
+.block-img{
+    top: 10%;
+    left: 65%;
+    min-width: 10rem;
+    max-width: 10rem;
+    height: 6rem;
+    transform: translateX(-1.2rem);
+    position: fixed;
+    box-shadow: .5rem .5rem 3rem 1px rgba(0,0,0,.05);
+}
+
+.block-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: .8rem;
+}
+
+.title {
+    color: #fff;
+    font-size: 18pt;
+    text-align: center;
+    margin-right: 25%;
+}
+
+.block-text{
+    position: static;
+    float: left;
+}
+
+.block-text h1{
+    color: #fff;
+    font-size: 18pt;
+}
+
+.purchase-sales-block {
+    position: fixed;
+    top: 10%;
+    left: 5%;
+    width: 64%;
+    color: aliceblue;
+}
+
+
+
+.cont-div {
+    position:fixed;left:20%;top:10%;width:29%;height:80%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.text-purchase-sales {
+    background: rgba(0, 0, 0, 0.7);
+    line-height: 1.3em;
+    margin: 20px 80px;
+}
+
+.cont-div p {
+    position: static;
+    margin: 10px 100px;
+
+}
+
+.cont-div img {
+    position: fixed;
+    left: 52%;
+    float: right;
+    height: 100px;
+    
+}
+
+.block-purchase {position:fixed;left:14%;top:10%;width:50%;height:80%;overflow:auto;background: rgba(43, 41, 41, 0.4);overflow-y: scroll;;
+}
+
+.get {
+    position: fixed;
+    left:20%;
+    top:10%;
+    width:40%;
+    height:80%;
+    background: rgba(43, 41, 41, 0.4);
+}
+
+.get-s {
+    position: fixed;
+    left:22%;
+
+    width:35%;
+    height:80%;
+    overflow-y: scroll;
+    overflow: auto;
+}
+
+.get-sales{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 0.5rem 1rem .5rem;
+    box-shadow: 0 1.4rem 1rem rgba(0, 0, 0, 0.288);
+    display: flex;
+    align-items: center;
+    border-radius: .8rem;
+    margin-top: 2%;
+}
+
+
+
+.get-sales-block {
+    width: 100%;
+}
+
+.get-sales-img {
+    min-width: 10rem;
+    max-width: 10rem;
+    height: 6rem;
+    transform: translateX(-1.2rem);
+    position: relative;
+    box-shadow: .5rem .5rem 3rem 1px rgba(0,0,0,.05);
+}
+
+.get-sales-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: .8rem;
+}
+
+.get-sales-img::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.get-sales-date {
+    color: #fff;
+    font-size: 12pt;
+    float: right;
+}
+
+.get-sales-title {
+    color: #fff;
+    font-size: 18pt;
+    
+}
+
+
+
+.get-sales-text-left {
+    color: #fff;
+    line-height: 1.2em;
+    font-size: 12pt;
+    float: left;
+}
+.get-sales-text-right {
+    color: #fff;
+    line-height: 1.2em;
+    font-size: 12pt;
+    float: center;
+}
+
+.post {
+    position: fixed;
+    left:61%;
+    top:10%;
+    width:19%;
+    height:80%;
+    background: rgba(43, 41, 41, 0.4);
+    
+}
+
+.post-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.7);
+    display: flex;
+    border-radius: .8rem;
+    box-shadow: 0 1.4rem 1rem rgba(0, 0, 0, 0.288);
+}
+
+.post-form h1 {
+    margin: 20px 80px;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    border-radius: .8rem;
+}
+
+.post-input-form {
+    margin: 10px 20px;
+    text-align: center;
+    border-radius: .8rem;
+}
+
+.post-input-form input{
+    padding: 10px;
+    width: 70%;
+    color: #fff;
+    font-size: 20px;
+    background: none;
+    outline: none;
+    border: 1px solid #0fc3f5;
+    box-sizing: border-box;
+    
+}
+
+.post-input-form select{
+    padding: 10px;
+    width: 70%;
+    color: #fff;
+    font-size: 20px;
+    background: none;
+    outline: none;
+    border: 1px solid #0fc3f5;
+    box-sizing: border-box;
+    
+}
+
+.post-input-form option{
+    padding: 10px;
+    width: 70%;
+    color: black;
+    font-size: 20px;
+    background: none;
+    outline: none;
+    border: 1px solid #0fc3f5;
+    box-sizing: border-box;
+    
+}
+
+.post-input-form-button {
+    margin-left: 30%;
+    margin-bottom: 5%;
+    width: 45%;
+    color: #fff;
+    font-size: 20px;
+    background: none;
+    border: 1px solid #0fc3f5;
+    
+}
+
+.fileInput {
+  border-bottom: 4px solid lightgray;
+  border-right: 4px solid lightgray;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  
+  cursor: pointer;
+}
+
+.storage {
+    position:fixed;left:25%;top:10%;width:51%;height:80%;overflow:auto;background: rgba(43, 41, 41, 0.4);
+}
+
+.storage-s {
+    position: fixed;
+    left:32%;
+    top: 13%;
+    width:37%;
+    height:75%;
+    overflow-y: scroll;
+    overflow: auto
+}
+
+.profit-u {
+    position: fixed;
+    top: 19%;
+    left: 22%;
+    background: rgba(3, 3, 3, 0.911);
+    width: 25%;
+    border-radius: .8rem;
+}
+
+.profit-u-title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 20px;    
+    
+}
+
+.profit-u-earnings{
+
+}
+
+.earnings{
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    background: rgba(26, 25, 25, 0.61);
+    margin-right: 1rem;
+    border-radius: .8rem;
+    height: 5rem;
+}
+
+.earnings-title{
+    margin-left: 5rem;
+    text-align: center;
+    font-size: 20px; 
+    
+}
+
+.earn-text{
+    margin-left: 1rem;   
+}
+
+.earn-img {
+    position: static;
+    height: 80px;
+    
+    min-width: 8rem;
+    max-width: 8rem;
+    box-shadow: .5rem .5rem 3rem 1px rgba(0,0,0,.05);
+    float: right;
+    margin-right: 1rem;
+}
+
+.earn-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: .8rem;
+    transform: translateY(0.5rem);
+    
+}
+.wefaw{
+width: 100%;
+height: 100%;
+object-fit: cover;
+display: block;
+border-radius: .8rem;
+
+    top: 10%;
+    left: 65%;
+    min-width: 10rem;
+    max-width: 10rem;
+    height: 6rem;
+    transform: translateX(-1.2rem);
+    position: fixed;
+    box-shadow: .5rem .5rem 3rem 1px rgba(0,0,0,.05);
+}
+
+.profit-u-total{
+    float: left;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-weight: bolder ;
+}
+
+.profit-u-date{
+    float:right;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-right: 3rem;
+    font-weight: bolder ;
+}
+
+.telega {
+    position: fixed;
+    top: 25%;
+    left: 30%;
+    background: rgba(27, 27, 27, 0.575);
+    width: 40%;
+    height: 50%;
+    border-radius: .8rem;
+}
+
+.prodaji {
+    color: #fff;
+    text-align: center;
+    margin-top: 3%;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.prodaji2{
+    color: #fff;
+    text-align: center;
+    margin-top: 9%;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.telega-title {
+    color: #fff;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 4rem;
+}
+
+.telega-key{
+    color:#fff;
+    margin-left: 3rem;
+    font-size: 30px;
+    background: rgba(15, 14, 14, 0.815);;
+    margin-right: 3rem;
+    border-radius: .8rem;
+    float: left;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.telega-img{
+    float: right;
+}
+
+.telega-img img{
+    height: 15rem;
+    transform: translateY(-12.2rem);
+} 
